@@ -1,19 +1,15 @@
-window.onload = enableSwitch();
+window.addEventListener('DOMContentLoaded', enableSwitch())
 
 let last = 0;
 const messages = [ "a Developer", "a Traveler", "an Explorer", "an Adventurer", "a Creator", "a Coder", "an Innovator" ];
 
 function enableSwitch() {
-    setInterval( async () => {
+    setInterval(async () => {
         const element = document.getElementsByClassName('js-text')[0];
         element.classList.toggle('fade');
         await wait();
 
-        if(last > messages.length - 2) {
-            last = 0;
-        } else {
-            last = last + 1;
-        }
+        last = last > messages.length - 2 ? 0 : last + 1
         element.textContent = messages[last];
         element.classList.toggle('fade');
     }, 4000)
