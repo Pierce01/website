@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+ background: #B289D3;
+ background: linear-gradient(135deg, #B289D3, #8700C1);
+ -webkit-background-clip: text;
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: calc(5vw + 5vh);
+ margin-bottom: 0;
+ margin-top: 0;
+}
+
+h2 {
+  font-size: calc(2vw + 2vh);
+  margin-top: 0;
+}
+
+@media screen and (max-width: 651px) {
+  h1 {
+    font-size: calc(4vw + 4vh);
+  }
+}
+
+section h2 {
+  margin-top: revert;
+}
+
+section:nth-of-type(even) {
+  background-color: black;
+  color: white;
+}
+
+section:nth-of-type(odd) {
+  background-color: white;;
+  color: black;
+}

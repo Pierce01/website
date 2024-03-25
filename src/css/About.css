@@ -1,0 +1,32 @@
+.App-about {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.App-about .photoContainer img {
+  width: 40vw;
+  height: 40vh;
+  border-radius: 15px;
+  margin: 0 10px;
+  object-fit:cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.App-about .textContainer {
+  text-align: left;
+  font-size: calc(1vw + 1vh);
+}
+
+@media screen and (max-width: 1000px) {
+  .App-about {
+    display: block;
+    padding: 1rem;
+  }
+  .App-about .photoContainer img {
+    width: 90vw;
+    margin: 0;
+  }
+}
