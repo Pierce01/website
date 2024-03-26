@@ -12,7 +12,7 @@
     "url": "https://github.com/Pierce01/website"
   },
   {
-    "name": "AI Virtual Assistent",
+    "name": "AI Virtual Assistant",
     "image": "Votegrity.webp",
     "description": "My team's capstone project that helps voters recover their lost ballot pin, as well as answer FAQs using Azure's Conversational Language Understanding Model. Frontend: TypeScript/React, Backend: C#, Middleware/Server Stack: Django and PostgreSQL. Code can be provided upon request.",
     "url": "https://github.com/Votegrity-Capstone"
