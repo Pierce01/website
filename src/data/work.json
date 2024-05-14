@@ -1,14 +1,21 @@
 [
   {
+    "name":"Possible • Automation Engineer",
+    "date":"Apr 2024 - Present",
+    "image":"Possible.webp",
+    "description":"Implemented automated workflow for uploading Zoom attendance data into an engagement tracker, enhancing efficiency and accuracy in tracking student participation",
+    "url":"https://www.heypossible.com/"
+  },
+  {
     "name":"Votegrity • Software Engineer",
     "date":"Jan 2023 - Present",
     "image":"Votegrity.webp",
-    "description":"Developed a Virtual Assistant that is projected to reduce 90% of support ticket traffic by automating the pin recovery process, while increasing ballot accessibility by 30%.",
+    "description":"Developed a Virtual Assistant that is projected to reduce 90% of support ticket traffic by automating the pin recovery process, while increasing ballot accessibility by 30%",
     "url":"https://votegrity.com/"
   },
   {
     "name": "Seattle University • Web Developer",
-    "date": "May 2021 - Present",
+    "date": "May 2021 - Jun 2024",
     "image": "https://media.licdn.com/dms/image/C560BAQFM6DMQOrhKkg/company-logo_200_200/0/1657990963922/seattle_university_logo?e=1719446400&v=beta&t=K_ilVMO3Q4-XiPi9AUGb0NYRR59Zet42qZWNEuQ-o7A",
     "description": "Created unique web-based applications to advertise university programs and making essential web utilities that resulted in a 40% improvement in site accessibility with a 25% boost in SEO, driving increased engagement and organic traffic",
     "url": "https://www.seattleu.edu/marcom/about-us/staff/students/pierce-harriz.html"
